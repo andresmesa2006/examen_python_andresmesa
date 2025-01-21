@@ -1,5 +1,5 @@
 class ReporteNomina:
-    def inicio(reporte, trabajadores):
+    def __init__(reporte, trabajadores):
         reporte.trabajadores = trabajadores
 
     def generar_reporte(reporte):
